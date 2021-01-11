@@ -7,14 +7,13 @@ sections:
 - type: document
   path: site/content/pages/**/*
   label: Page
-  match: "**/*"
 - type: directory
   path: site/content/products
   label: Products
   create: all
   match: "**/*"
 upload_dir: snipcart-hugo-demo
-public_path: ''
+public_path: "/site/content/medias"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
